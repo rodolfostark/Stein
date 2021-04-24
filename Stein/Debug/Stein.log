@@ -1,0 +1,4 @@
+﻿  Test.cpp
+     Criando biblioteca C:\Dev\Stein\Debug\Stein.lib e objeto C:\Dev\Stein\Debug\Stein.exp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo não resolvido, _main, referenciado na função "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Dev\Stein\Debug\Stein.exe : fatal error LNK1120: 1 externo não resolvidos
