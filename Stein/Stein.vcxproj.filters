@@ -4,6 +4,9 @@
     <Filter Include="Stein">
       <UniqueIdentifier>{88491E0E-F45D-46BF-BDDF-E91E29B342F0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Stein\Events">
+      <UniqueIdentifier>{6CEC8054-584F-10F9-01D5-48AFED16DC7B}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Stein.h" />
@@ -16,9 +19,22 @@
     <ClInclude Include="src\Stein\EntryPoint.h">
       <Filter>Stein</Filter>
     </ClInclude>
+    <ClInclude Include="src\Stein\Events\ApplicationEvent.h">
+      <Filter>Stein\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stein\Events\Event.h">
+      <Filter>Stein\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stein\Events\KeyEvent.h">
+      <Filter>Stein\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stein\Events\MouseEvent.h">
+      <Filter>Stein\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Stein\Log.h">
       <Filter>Stein</Filter>
     </ClInclude>
+    <ClInclude Include="src\stpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Stein\Application.cpp">
@@ -27,5 +43,6 @@
     <ClCompile Include="src\Stein\Log.cpp">
       <Filter>Stein</Filter>
     </ClCompile>
+    <ClCompile Include="src\stpch.cpp" />
   </ItemGroup>
 </Project>

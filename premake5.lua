@@ -18,6 +18,9 @@ project "Stein"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "stpch.h"
+    pchsource "Stein/src/stpch.cpp"
+
     files
     {
         "%{prj.name}/src/**.h",
@@ -26,6 +29,7 @@ project "Stein"
 
     includedirs
     {
+        "%{prj.name}/src",
         "%{prj.name}/vendor/spdlog/include"
     }
 
